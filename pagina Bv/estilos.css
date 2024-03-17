@@ -1,0 +1,23 @@
+html{
+	font-family: Arial;
+}
+.bods{
+	background-color: #FFFFFF;
+}
+.letra{
+	color: black;
+}
+.tablass{
+	border-collapse: collapse;
+	border-color: black;
+	padding: 5px;
+}
+tr:hover{
+	transition: 0.1s;
+	background-color: gray;
+}
+th, td{
+	border-bottom: 1px solid #ddd;
+	padding: 15px;
+	text-align: left;
+}

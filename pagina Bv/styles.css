@@ -1,0 +1,167 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Vardana, sans-serif;
+	color: #333;
+	background-color: whitesmoke; /*Color del fondo*/
+
+}
+#mai-header{
+	background: #333  ; /*Cambiar color de la parte de hasta arriba de la página*/
+	color: white; /*No sé para que sea xd*/
+	height: 68px;
+	width: 100%;
+	left: 0;
+	top: 0;	
+}
+#mai-header a{
+	color: white; /*Color de la fuente del encabezado*/
+}
+
+#mai-content header, #mai-content .content{
+	padding: 8px 35px;
+}
+
+#mai-content{ /*Color de fondo del texto del body*/
+	background: #333;
+	width: 100%;
+	max-width: 1300px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0,.1);
+}
+
+.hclass{
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 0px 100px;
+	font-weight: 300;
+	padding: 40px 0px;
+}
+.centsda{
+	text-align: center;
+}
+p{
+	margin: 0 0 1.5em 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+#logo-header{
+	float: left;
+	padding: 12px 0 0 20px;
+	text-decoration: none;
+}
+#logo-header:hover {
+	color: #8e0633 ;
+	/**/
+	cursor: pointer;
+}
+#logo-header .site-name { /*Para cambiar el color de las letras de la esquina superior izquierda*/
+	display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+	transition-duration: 0.3s;
+}
+#logo-header .site-desc { /*Para cambiar el color de las letras de la esquina superior izquierda*/
+	display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: cd6228;
+}
+
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 10px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 68px; /*Tamaño de los botones*/
+}
+nav ul li a {
+	display: block;
+	padding: 0px 5px;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	background: #cd6228 ; /*Botón de Inicio*/
+	transition-duration: 0.3s;
+}
+
+li{
+	font: Arial;
+	float: left;
+}
+
+li a, .dropbtn{
+	display: inline-block;
+	color: #840c34; 
+	text-align: center;
+	padding: 0px 10px;
+	text-decoration: none;
+	transition-duration: 0.3s;
+}
+li a:hover, .dropdon:hover .dropbtn{
+	background-color:  #cd6228; /* Color de los botones */
+	transition-duration: 0.3s;
+	cursor: pointer;
+
+}
+li.dropdon{
+	display: inline-block;
+}
+.dropdon-content {
+	display: none;
+	position: absolute;
+	background-color: #cd6228 ; /* Color de los subotones  */
+	min-width: 80x;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.dropdon-content a {
+	transition-duration: 0.4;
+	color: black;
+	padding: 0px 8px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdon-content a:hover {
+	background-color: #8E0633; /*Sombreado de los subotones */
+}
+.dropdon:hover .dropdon-content{
+	display: block;
+}
+
+.cover {
+    height: 330px;
+    background-image: url(fotos/fondox.png);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+    padding: 0px 0px;
+}
+.holasw{
+	font-size: 5em;
+}
+.Imgs{
+	max-width: 40%;
+}
+.blancs{
+	color: white;
+}
+h1{
+	font-size: 3em;
+	margin: 10px 0px;
+}
+.siuit{
+	line-height: 2em;
+}
